@@ -1,0 +1,57 @@
+What is Linux :
+
+Linux is a kernel, initially developed by Linus Torvalds in 1991, which serves as the core component of an operating system. It manages system processes and hardware interactions. 
+Torvalds released Linux under the GNU General Public License (GPL), allowing collaborative development and requiring contributions to be shared back with the community. This open-source approach attracted global developers, including early contributors like Red Hat. 
+The term "open source" was coined in 1998 to describe such collaborative projects. Linux has since become widely used across servers, desktops, laptops, and consumer devices like Android and Chromebooks, thanks to its flexibility and the extensive contributions 
+from the open-source community.
+
+
+
+Purpose of Kernal : 
+
+When you turn on a computer, firmware on the motherboard searches for a hard drive with a boot loader application. 
+The boot loader then loads the operating system kernel into memory. The kernel initializes hardware, loads necessary drivers, and starts system services.
+After booting, the kernel runs in the background while you interact with either the Graphical User Interface (GUI) or the shell (text-based command prompt). 
+The GUI offers a user-friendly, visual way to interact with the system, while the shell provides a more efficient, text-based method, especially useful over a network.
+
+
+Flowchart for Kernal :
+
+
+[Power On Computer]
+        |
+        v
+[Firmware Searches for Boot Loader]
+        |
+        v
+[Boot Loader Found]
+        |
+        v
+[Boot Loader Loads Kernel into Memory]
+        |
+        v
+[Kernel Initialization]
+        |
+        v
+[Kernel Probes Hardware]
+        |
+        v
+[Kernel Loads Drivers]
+        |
+        v
+[Service Manager Starts]
+        |
+        v
+[System Services (Networking, Graphics, etc.) Loaded]
+        |
+        v
+[Login Prompt Displayed]
+        |
+        v
+[User Logs In]
+        |
+        |----> [Graphical User Interface (GUI)]
+        |             (Point-and-click, Icons, Menus)
+        |
+        |----> [Shell (Terminal/Console)]
+                      (Text-based Commands)
